@@ -1,0 +1,18 @@
+server:
+    port: 9001
+
+spring:
+  application:
+    name: data_rest
+
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:mydbb
+
+  h2:
+    console:
+      enabled: true
+
+  jpa:
+    hibernate:
+      ddl-auto: update
